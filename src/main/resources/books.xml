@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<title>One book</title>
+		<published>2014</published>
+		<authors>
+			<author firstname="Barney" lastname="Stinson" />
+			<author firstname="Selma" lastname="Bouvier" />
+		</authors>
+	</book>
+	<book>
+		<title>Another book</title>
+		<published>2004</published>
+		<authors>
+			<author firstname="Sideshow" lastname="Bob" />
+		</authors>
+	</book>
+	<book>
+		<title>A third book</title>
+		<published>2013</published>
+		<authors>
+			<author firstname="Tim" lastname="Allan" />
+			<author firstname="Rob" lastname="Halford" />
+			<author firstname="Rob" lastname="Roy" />
+		</authors>
+	</book>
+</books>
