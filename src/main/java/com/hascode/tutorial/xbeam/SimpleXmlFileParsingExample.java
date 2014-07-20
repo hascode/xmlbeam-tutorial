@@ -10,7 +10,7 @@ import com.hascode.tutorial.xbeam.projection.Books;
 public class SimpleXmlFileParsingExample {
 	public static void main(final String[] args) throws IOException {
 		Books bookProjection = new XBProjector().io().fromURLAnnotation(Books.class);
-		bookProjection.getBooks().stream().forEach(book -> {
+		bookProjection.getBooks().forEach(book -> {
 			System.out.println("book -> title: " + book.getTitle() + " and authors: ");
 			System.out.println(book.getAuthors().stream().map(a -> {
 				return a.getFirstname() + " " + a.getLastname();
